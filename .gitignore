@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & models (too large for GitHub — link them in README instead)
+dataset/
+models/
+*.pt
+*.pth
+*.onnx
+*.h5
+*.weights
+
+# Media (large files — keep only lightweight demo GIFs/screenshots in docs/)
+*.mp4
+*.avi
+*.mov
+
+# Academic deliverables (not part of the open-source repo)
+*.docx
+*.pptx
+
+# OS / Editor
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
